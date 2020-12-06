@@ -3,9 +3,9 @@ from .models import Account
 from web3 import Web3
 
 public_key = "0x929500a528011160C83d2fC9999375F3afe1F763"
-private_key = "ba6c51ab903578d64bc940bfe9ed6b3afd75920715d650af50e2dce179f7f4e6"
+private_key = ""
 
-url = "https://rinkeby.infura.io/v3/569a7adcb084403c9355ca5686e9bff3"
+url = "https://rinkeby.infura.io/v3/"
 web3 = Web3(Web3.HTTPProvider(url))
 
 
