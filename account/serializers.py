@@ -8,8 +8,13 @@ import os
 import unicodedata
 
 
+<<<<<<< HEAD
+=======
+public_key = "0x929500a528011160C83d2fC9999375F3afe1F763"
+private_key = ""
+>>>>>>> eb90fceb6b76639873dd01bb9a4cbc34d6d74a13
 
-url = "https://rinkeby.infura.io/v3/569a7adcb084403c9355ca5686e9bff3"
+url = "https://rinkeby.infura.io/v3/"
 web3 = Web3(Web3.HTTPProvider(url))
 
 
