@@ -1,7 +1,6 @@
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-
 from account.models import Account
 from account.serializers import RegistrationSerializer
 
@@ -17,6 +16,7 @@ def registration_view(request):
             data['email'] = account.email
             data['username'] = account.username
             data['wallet'] = account.wallet
+            data['seed'] = account.seed
         else:
             data = serializer.errors
         return Response(data)

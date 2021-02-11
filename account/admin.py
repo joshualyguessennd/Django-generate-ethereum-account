@@ -4,7 +4,7 @@ from account.models import Account
 
 
 class AccountAdmin(UserAdmin):
-	list_display = ['id','email','username', 'wallet', 'date_join', 'last_login', 'is_admin','is_staff']
+	list_display = ['id','email','username', 'wallet', 'seed', 'date_join', 'last_login', 'is_admin','is_staff']
 	search_fields = ['id','email','username',]
 	readonly_fields = ['id']
 	filter_horizontal = ()
